@@ -189,9 +189,9 @@
         <div class="container-fluid">
             <div class="row mb-5">
                 <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-                    <div class="row">
-                        <div class="col-12 text-muted mb-3">
-                            <h2>Orders Summary</h2>
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                            <h2 class="text-muted mb-3">Orders Summary</h2>
                             <table class="table table-striped bg-light text-center">
                                 <thead>
                                     <tr class="text-muted">
@@ -294,8 +294,119 @@
                             </nav>
                             <!-- end pagination -->
                         </div>
-                        <div class="col-12">
+                        <div class="col-xl-6 col-12">
+                            <h2 class="text-muted mb-3">Recent Payment</h2>
+                            <table class="table table-dark table-hover">
+                                <thead>
+                                    <tr class="text-light bg-info">
+                                        <td>Invoice #</td>
+                                        <td>Terms</td>
+                                        <td>Due Date</td>
+                                        <td>Vendor</td>
+                                        <td>Amount</td>
+                                        <td>Pymt Method</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>A4829</th>
+                                        <td>Net 10</td>
+                                        <td>07/01/2020</td>
+                                        <td>SHELL Oil</td>
+                                        <td>$35,653</td>
+                                        <td>
+                                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                                                title="Ck#13445">
+                                                <i class="fa fa-money"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11821</th>
+                                        <td>Net 30</td>
+                                        <td>07/13/2020</td>
+                                        <td>XYZ Oil</td>
+                                        <td>$1,235,653</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top"
+                                                title="Paypal">
+                                                <i class="fa fa-cc-paypal"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11821</th>
+                                        <td>Net 30</td>
+                                        <td>07/13/2020</td>
+                                        <td>XYZ Oil</td>
+                                        <td>$1,235,653</td>
+                                        <td>
+                                            <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="AMEX">
+                                                <i class="fa fa-cc-amex"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11821</th>
+                                        <td>Net 30</td>
+                                        <td>07/13/2020</td>
+                                        <td>XYZ Oil</td>
+                                        <td>$1,235,653</td>
+                                        <td>
+                                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Ck#44122">
+                                                <i class="fa fa-money"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11821</th>
+                                        <td>Net 30</td>
+                                        <td>07/13/2020</td>
+                                        <td>XYZ Oil</td>
+                                        <td>$1,235,653</td>
+                                        <td>
+                                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Ck#44122">
+                                                <i class="fa fa-money"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11821</th>
+                                        <td>Net 30</td>
+                                        <td>07/11/2020</td>
+                                        <td>ALTRAN Oil</td>
+                                        <td>$15,653</td>
+                                        <td>
+                                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Ck#44122">
+                                                <i class="fa fa-money"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
 
+                                </tbody>
+                            </table>
+                            <!-- pagination -->
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>Previous</span></a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link py-2 px-3">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3"><span>Next</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- end pagination -->
                         </div>
                     </div>
                 </div>
