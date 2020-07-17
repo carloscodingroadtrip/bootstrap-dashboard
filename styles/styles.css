@@ -154,7 +154,7 @@ body {
 }
 
 .card-common:hover {
-    box-shadow: 4px 6px 10px #999;
+    box-shadow: 18px 22px 28px #999;
     transform: translateY(-1px);
     -webkit-transform: translateY(-1px);
     -moz-transform: translateY(-1px);
