@@ -1,6 +1,6 @@
 body {
     font-family: "Raleway";
-    background-color: #f8eded;
+    background-color: #fcf2f2;
     padding: 0;
     margin: 0;
 }
@@ -33,7 +33,7 @@ body {
     -o-transition: all 0.4s;
 }
 .sidebar-link:hover {
-    background-color: #029ab4;
+    background-color: #fae208;
     font-size: 1.1rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -151,6 +151,11 @@ body {
     -moz-transition: all 0.4s;
     -ms-transition: all 0.4s;
     -o-transition: all 0.4s;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 
 .card-common:hover {
