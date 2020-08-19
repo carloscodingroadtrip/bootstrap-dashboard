@@ -1,6 +1,6 @@
 body {
     font-family: "Raleway";
-    background-color: #fcf2f2;
+    background-color: #fcfbfb;
     padding: 0;
     margin: 0;
 }
@@ -24,7 +24,21 @@ body {
 .bottom-border {
     border-bottom: 1px groove #f8eded;
 }
+.sidebar {
+    padding: 0;
+}
 
+.pl-4 {
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+.text-muted-notifications {
+    color: #79bd56!important;
+}
+.bg-dark {
+    height: 62px;
+    background-color: rgb(102, 98, 98)!important;
+}
 .sidebar-link {
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
@@ -33,23 +47,26 @@ body {
     -o-transition: all 0.4s;
 }
 .sidebar-link:hover {
-    background-color: #fae208;
+    background-color: #79BD58;
     font-size: 1.1rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    margin: 0 5px;
 }
-
+.navbar-brand {
+    background-color: #79BD58;
+}
 .current {
-    background-color: rgb(184, 58, 0);
+    background-color:#53B701;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
-    box-shadow: 2px 5px 10px #141111f6;
+    box-shadow: 2px 5px 4px #141111f6;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -58,7 +75,7 @@ body {
 }
 
 .current:hover {
-    background-color: #e9380bd8;
+    background-color: #15cc15d8;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -72,15 +89,19 @@ body {
     -o-transform: translate(-1px);
 }
 
+.search-input::placeholder {
+  color:rgb(218, 214, 214);
+}
 .search-input {
     background: transparent;
     border: none;
+    color: #fff;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-    border-bottom: 2px solid #b9b9b9;
+    border-bottom: 2px solid #0ba030;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -90,7 +111,8 @@ body {
 .search-input:focus {
     background: transparent;
     box-shadow: none;
-    border-bottom: 2px solid #029ab4;
+    color: #fff;
+    border-bottom: 2px solid #ace6acd8;
 }
 
 .search-button {
@@ -106,7 +128,7 @@ body {
     -o-transition: all 0.4s;
 }
 .search-button:hover {
-    background-color: rgb(231, 202, 202);
+    background-color: rgb(202, 231, 207);
     transform: translateY(-1px);
     -webkit-transform: translateY(-1px);
     -moz-transform: translateY(-1px);
@@ -125,12 +147,21 @@ body {
     left: 17px;
     height: 14px;
     width: 14px;
-    background-color: #f43366;
+    background-color: #1a2425;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.signout {
+    background-color: rgb(17, 17, 13);
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
 }
 
 @media (max-width: 768px) {
